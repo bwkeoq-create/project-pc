@@ -1,0 +1,60 @@
+
+#content .content_area{width: 100%; margin: 0 auto;  }
+
+#content .year_tab li{ width: 100%;text-align: center; border-top: 1px solid #666; border-bottom: 1px solid #666 ; background-size: cover; }
+#content .year_tab{margin: 0 auto;  display: flex; font-size: 1.8rem;   
+font-weight: 600; width: 1500px;}
+#content .year_tab li a{ padding: 15px 0; transition: all .5s ease-out; }
+
+
+ /* 상단에 고정 sticky menu */
+     
+#content .navOn{position: fixed; width: 100%; z-index:100; left:0; top: 0; background: #fff; border-bottom: 1px solid #ccc;}
+#content .navOn .year_tab{margin: 0 auto; padding: 0;}
+#content .navOn .year_tab li{border: 0;}
+
+ /* 메뉴 활성화  scroll spy */
+ #content .navBox .year_tab li a.spy{
+    background: var(--color-point1); color: #fff;
+    }
+
+        
+
+#content .history ul{width: 1400px; margin: 100px auto; position: relative;}
+#content .history ul li{margin-bottom: 50px;
+   border: 1px solid #ccc; width: 600px;position: relative;
+  padding: 50px 30px; box-sizing: border-box; box-shadow:var(--box-shadow1) ; border-radius: 10px; transition: all .5s;
+  position: relative;}
+#content .history_right{margin-left: 800px;} 
+#content .history_left::after{
+    content: ''; width: 80px; height: 1px; border-top:2px dashed #ccc;
+    position: absolute; right: -80px; top:50%;
+}
+#content .history_left::before{
+    content: ''; width: 10px; height: 10px; background: #333; border-radius: 50%;
+    position: absolute; right: -80px; top:50%; z-index: 10;margin-top: -4px;
+    outline: 2px solid #ccc; outline-offset: 5px; transition: all .5s;
+}
+#content .history_right::after{
+    content: ''; width: 80px; height: 1px; border-top:2px dashed #ccc;
+    position: absolute; left: -80px; top:50%;
+}
+#content .history_right::before{
+    content: ''; width: 10px; height: 10px; background: var(--color-point1); border-radius: 50%;
+    position: absolute; left: -80px; top:50%; z-index: 10;margin-top: -4px;
+    outline: 2px solid var(--color-main); outline-offset: 5px;transition: all .5s;
+}
+#content li:hover::before{
+    transform: scale(1.2);
+}
+
+
+#content .history ul li:hover{background: var(--color-main); color: #fff;}
+#content .history ul li dt{font-size: 2rem; margin-bottom: 20px; font-weight: 700;}
+#content .history ul li dd{font-size: 1rem; margin-bottom: 15px;}
+
+
+
+
+#content .history img{display: block;margin: 50px  auto ; width: 1400px; border-radius: 30px;}
+#content .sec1 img{height: 383px; width: 1400px; object-fit: cover;object-position: center ;}

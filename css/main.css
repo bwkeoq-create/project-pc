@@ -1,0 +1,388 @@
+/* 메인 비주얼영역(히어로섹션) */
+.visual{
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.visual p{
+    position: absolute;
+    left: 250px;
+    top: 600px;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0;
+}
+.visual p span{
+   font-weight: 700;
+   font-size:4rem;
+   display: block;
+   color: var(--color-main);
+   text-shadow: 1px 1px 10px rgba(0,0,0,.2);
+}
+
+.visual .gallery{position:relative;left:0; top:0; overflow:hidden; width:100%; height:960px;}
+.visual .gallery li{display:none; position: absolute; left: 0; top: 0;}
+
+.visual .gallery img{animation: ani 30s linear infinite;}
+@keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
+}
+
+
+/* .gallery .link1 span{ left:  100px; top: 300px;} */
+
+.visual .dock{width:150px; position:absolute; left:50%;margin-left: -80px; ; bottom:120px; display: flex; gap: 15px; opacity: .85;}
+.visual .dock span{display: block;}
+
+.visual .dock .mbutton{ cursor:pointer; 
+    display:block; width:16px; height:16px;
+   background: #fff; border-radius:8px;
+  transition: all .5s}
+
+.visual .dock .ps { margin-top: -8px; cursor:pointer; 
+    display:block;  width:25px; height:25px;
+    }
+.visual .dock .ps i, .visual .svg-inline--fa{font-size: 30px; color:#fff;}   
+
+.visual .btn{display: block; width: 40px; height: 100px; 
+        position: absolute;  top:45%; cursor:pointer; }
+.visual .btn i,
+.visual .btn .svg-inline--fa{color: #fff; font-size: 5rem; opacity: .5; transition: all .5s ease-out; }
+.visual .btn i:hover,
+.visual .btn .svg-inline--fa:hover{
+    opacity: .9;
+}
+.visual .btnLeft{left:50%; margin-left: -900px;}
+.visual .btnRight{left:50%; margin-left: 800px;}    
+
+
+/* 본문콘텐츠 영역 */
+
+/* 본문 공통영역 */
+#content section{
+    padding: 150px 0;
+}
+#content section h3{
+    font-size: var(--font-h3-size);
+}
+
+#content .box1 {
+    justify-content: center;
+}
+#content .more{
+    width: 130px;
+    padding: 10px 0;
+    text-align: center;
+    background: var(--color-main);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow1);
+    transition: all .5s ease-out;
+}
+#content .more:hover{
+    background: #fff;
+    color: var(--color-main);
+}
+
+/* company */
+.company{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.company .company_left{
+    width: 550px;
+}
+
+.company h3{
+    font-size: var(--font-h3-size);
+    margin-bottom: 30px;
+}
+.company h3 span:nth-of-type(1){
+    display: block;
+    font-size: var(--font-16-size);
+    color: var(--color-main);
+    font-family: "Roboto", sans-serif; 
+}
+.company h3 span:nth-of-type(2){
+    font-size:1.65rem;
+    color: var(--color-main);
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.company p{
+    font-size: var(--font-16-size);
+    text-align: justify;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+.company ul{
+    display: flex;
+    
+    margin-top: 15px;
+}
+
+         .company_right .big{width: 700px; height:433px;}
+         .company_right li{float: left; margin: 5px; }
+         .company_right li a{display: block; border: 3px solid rgba(255,0,0,0);}
+         .company_right li a img{transition: all 1s;}
+
+
+/* business */
+.business{
+   background: var(--color-point2);
+
+    
+}
+.business h3{
+    font-size: var(--font-h3-size);
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.business h3 span:nth-of-type(1){
+    display: block;
+    font-size: var(--font-16-size);
+    color: var(--color-main);
+    font-family: "Roboto", sans-serif;
+}
+.business h3 span:nth-of-type(2){
+    font-size: 1.65rem;
+    color: var(--color-point1);
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    padding-left: 15px;
+}
+.business>p{
+    font-size:1.3rem ;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.business li h4{
+    text-align: center;
+    line-height: 1.7;
+    margin: 20px 0;
+    font-size: var(--font-h6-size);
+    font-weight: 700;
+    color: #222;
+}
+
+.business ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.business ul li{
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all .5s ease-out;
+}
+.business ul li:hover{
+    box-shadow:var(--box-shadow2) ;
+    background: var(--color-main);
+}
+.business li span{
+    display: block;
+    width: 365px;
+    height: 481px;
+    overflow: hidden;
+}
+.business li img{
+    width: 100%;
+    transition: all .5s ease-out;
+}
+.business li:hover img{
+    transform: scale(1.1);
+    filter: contrast(150%);
+}
+.business li h4{transition: all .5s ease-out;}
+.business li:hover h4{color: #fff;}
+
+/* landmark */
+.landmark{
+    
+    gap: 120px;
+}
+.landmark h3{
+    font-size: var(--font-h3-size);
+    color: #222;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.landmark>p{
+    font-size:1.3rem ;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.landmark span:nth-of-type(1){
+    display: block;
+    font-size: var(--font-16-size);
+    color: var(--color-main);
+    font-family: "Roboto", sans-serif;
+    
+}
+.landmark span:nth-of-type(2){
+    font-size: 1.65rem;
+    color: var(--color-point1);
+    font-weight: 300;
+    padding-left: 15px;
+    text-align: right;
+}
+
+.landmark li{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 100px;
+    margin-bottom: 80px;
+}
+.landmark h4{
+    font-size: var(--font-h5-size);
+    margin-bottom: 30px;
+    position: relative;
+}
+.landmark ul li div{
+    width: 600px;
+}
+.landmark ul .more{
+    margin-top: 50px;
+}
+.landmark li .stay{
+    text-align:right;
+}
+.landmark li .stay p{
+    text-align: right;
+}
+
+.landmark div p{
+    margin-bottom: 30px;
+    margin: 20px;
+    text-align: left;
+    
+}
+.landmark ul li img{
+    border-radius: 50px 0;
+    box-shadow: var(--box-shadow1);
+    transition: all .5s ease-out;
+}
+.landmark ul li:hover img{
+   filter: brightness(150%) saturate(150%);
+   transform: scale(1.02);
+}
+
+.landmark li:nth-of-type(2) img{
+    order: 1;
+}
+.landmark .shilla{position: relative;}
+.landmark .shilla::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 63px;
+    background: var(--color-point1);
+    margin-left: 15px;
+    vertical-align: middle;
+    position: absolute;
+    top: 70px;
+    right: 3px;
+}
+.landmark .hotel{position: relative;}
+.landmark .hotel::after{
+     content: "";
+    display: inline-block;
+    width: 2px;
+    height: 63px;
+    background: var(--color-point1);
+    margin-left: 15px;
+    vertical-align: middle;
+    position: absolute;
+    top: 70px;
+    left: -13px;
+    }
+.landmark li .stay .more{margin-left: 470px;}
+
+    
+/* social */
+
+.social{
+    background: var(--color-sub1);
+    position: relative;
+}
+.social h3{
+    font-size: var(--font-h3-size);
+    margin-left: 10%;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+}
+.social span:nth-of-type(1){
+    display: block;
+    font-size: var(--font-16-size);
+    color: var(--color-main);
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+}
+.social span:nth-of-type(2){
+    font-size: var(--font-h2-size);
+    color: var(--color-point1);
+    font-weight: 600;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.social li{
+    position: relative;
+    
+}
+.social ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.social ul dt{
+    font-size: var(--font-h5-size);
+    font-weight: 500;
+    color: #333;
+}
+.social>dd{
+    font-size: var(--font-16-size);
+    color: var(--color-font);
+    text-align: center;
+}
+.social .more{
+    position: absolute;
+    top:350px;
+    left: 50%;
+    margin-left: 420px;
+}
+
+/* careers */
+.careers{
+    background: url(../images/images.jpg) center no-repeat;
+    background-size: cover;
+}
+.careers h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.careers p{
+    font-size: 1.5rem;
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+#content .careers .more{
+    width: 200px;
+    margin: 0 auto;
+}
+

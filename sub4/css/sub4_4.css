@@ -1,0 +1,14 @@
+        .contact{width: 1000px; margin: 30px auto ; border: 1px solid #ccc;padding: 30px; margin-bottom: 150px; border-radius: 30px;}
+         .contact img{margin-bottom: 50px;}
+        .contact div{padding: 20px;}
+        .contact label{font-size: 1.2rem; font-weight: bold;
+             width: 100px;display: block; margin-bottom: 10px;}
+        .contact input, .contact textarea{padding: 15px 5%; width: 90%; font-size: 1.5rem;
+             border: 0; background: #fff; color: #333 ;
+             border-radius: 10px; outline: none; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1); transition: all .5s;}
+        .contact input:focus, .contact textarea:focus{box-shadow: 1px 1px 10px 1px rgba(0,0,0,.4); 
+            transform: scale(1.03); background:#f7debf ;}     
+        .contact textarea{height: 200px; }
+        .contact button{padding: 15px 50px;background:#ecb872;
+           color: #fff; font-size: 1.3rem; border-radius: 15px;
+           border: 0; margin: 30px auto 0;display: block; cursor: pointer;}

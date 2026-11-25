@@ -1,0 +1,78 @@
+/* 사업소개의 본문영역 */
+
+#content .content_area {width: 1200px;  text-align: center; padding-bottom: 350px; margin: 0 auto;}
+#content .content_area .concept{border-top: 1px solid #8B857F;}
+#content .content_area .tit{display: inline;font-size: var(--font-h4-size);color: orange; font-weight: 100;position: relative; }
+#content .content_area .line{margin-left: 140px; font-size: var(--font-h4-size); position: relative;}
+#content .content_area .line::before{content: '';  height: 50px;  position: absolute; border: 1px solid var(--color-main); 
+                                    left: -100px; }
+#content .content_area .title_img{margin-top: 200px;}
+#content .content_area .concept .event{display: flex; justify-content: center; align-items: center; gap: 40px;
+                 font-size: var(--font-gnb-size); border: 1px solid #f3f3f3; padding: 50px; margin: 150px auto; height: 200px;
+                 box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2); border-radius: 30px;}
+#content .content_area .concept .event span{font-size: 4rem; color: var(--color-main); font-weight: 700; margin-bottom: 30px; }
+#content .content_area .concept .event p{text-align: center; font-size:var(--font-gnb-size); font-weight: 500; }
+#content .content_area table{margin: 0 auto; width: 1000px; height: 360px; margin: 150px 230px; }
+#content .content_area table td:nth-of-type(1){background: var(--color-main); color: #f4f4f4;width: 310px;}
+#content .content_area table th{height: 90px; font-size: var(--font-18-size); width: 150px; border-top: 1px solid #8B857F;}
+#content .content_area table td{border-top: 1px solid #8B857F;  height: 30%; font-size: var(--font-18-size);}
+#content .content_area table td span{font-size: 1.8rem;}
+#content .content_area .head{margin: 150px 0;}
+#content .content_area h3{font-size: var(--font-h3-size); font-family: "Noto Sans KR"; font-weight: 300; }
+#content .content_area p{font-size: 1.45rem; text-align: center; line-height: 1.5;  }
+
+#content .content_area span{font-size: var(--font-18-size); color: var(--color-main); display: block; text-align: center; margin: 30px;}
+#content .content_area h4{font-size: var(--font-h4-size); font-weight: 400; margin-bottom: 30px; text-align: left;}
+#content .content_area .concept dl{display: flex; justify-content: left; gap: 50px; margin-bottom: 100px; align-items: center;}
+#content .content_area .concept dl:nth-of-type(1){gap: 90px;}
+#content .content_area .concept dl strong{font-size: var(--font-h5-size); color: rgb(255, 241, 88); }
+#content .content_area .concept dl span{font-size:1.5rem; display: block; text-align: left;}
+#content .content_area .concept dt{font-size:1.85rem;font-weight: 600 ; color: var(--color-main); }
+#content .content_area .concept dd{box-sizing: border-box; font-size: var(--font-gnb-size); text-align: left; }
+#content .content_area .concept table dt{font-size: var(--font-gnb-size);  
+                            }
+#content .content_area .concept p{font-size: var(--font-gnb-size); text-align: left; display: block;
+                                    }
+#content .content_area .concept .p2{ color: rgb(213, 213, 162); font-size: var(--font-gnb-size); margin-left: 50px;}
+#content .content_area .concept strong{display: block; margin-left: -180px ;}
+#content .content_area .concept ul {text-align: center;}
+
+#content .content_area .seo ul{display: flex; justify-content: center;  gap: 50px; position: relative;}
+#content .content_area .seo .img_big{display: flex; justify-content: center; align-items: center; margin-bottom: 150px;position: relative; }
+#content .content_area .seo .img_big div{width: 600px ; height: 360px; }
+#content .content_area .seo .img_big .arrow{display: flex; justify-content: left; margin-top: 50px; margin-left: -20px}
+#content .content_area .seo .img_big .arrow span{font-size: 3rem; color: #ccc; margin: 0 auto;}
+#content .content_area .seo .img_big .arrow span:hover{color: #8B857F;}
+#content .content_area .seo .img_big .btn span{width: 30px; height: 30px; }
+
+#content .content_area .seo .img_big1 div{width: 600px ; height: 360px; }
+#content .content_area .seo .img_big1{display: flex; justify-content: center; align-items: center; margin-bottom: 150px;position: relative; }
+
+#content .content_area .tag{margin: 200px; }
+
+#content .content_area .tag span{margin-bottom: 100px;}
+#content .content_area .tag p{text-align: left;}
+
+#content .content_area .btn {width: 180px; height: 30px; background: var(--color-main); border-radius: 30px; margin-top: 500px; margin-left: 70px; transform: translate(210px, -350px);
+            position: absolute; top: 200px; left: 60%; text-align: center; transition: all .5s ease-out; font-size: 1.2rem; text-indent: -20px;
+                    padding: 5px 10px 6px 2px;}
+
+#content .content_area .btn span{transform: translate(120px, -48px); color: #000;  font-size: 1rem;}
+#content .content_area .btn:hover span {transform: translate(130px, -48px); color: #fff; transition: all .5s ease-out; transition-delay: .5s;}
+#content .content_area .btn:hover{color: #fff;transition-delay: .5s;}
+
+#content .content_area .seo .btn1 {display: flex;right: 0; margin-left: 450px ; margin-top: 90px; position: absolute;}
+#content .content_area .seo .btn1 span{font-size: 3rem;}
+#content .content_area .btn3 {width: 180px; height: 30px; background: var(--color-main); border-radius: 30px; margin-left: 400px; transform: translateY(-280px);
+                                margin-top: 30px; padding: 5px 10px 6px 2px; }
+#content .content_area .btn3 span:nth-child(1){color: #040404;font-size: 1.15rem; transform: translate(70px, -90px);}
+#content .content_area .btn3 span{color: #000; margin-top: 90px; margin-left: -130px; transform: translate(150px ,-200px);  transition: all .5s ease-out;}
+#content .content_area .btn3:hover span{color: #fff; }
+#content .content_area .btn3:hover .material-symbols-outlined{color: #fff; transform: translate(160px ,-200px); transition: all .5s ease-out; transition-delay: .3s;}
+
+#content .content_area .seo .btn2 {display: flex;right: 0;  margin-top: 220px; transform: translateY(-200px); }
+#content .content_area .seo .btn2 span{font-size: 3rem; color: #ccc; margin: 0 auto;}
+#content .content_area .seo .btn2 span:hover{color: #8B857F;}
+
+#content .content_area .seo .shi1{margin-left: 100px;}
+#content .content_area .seo .shi{margin-right: 100px;}

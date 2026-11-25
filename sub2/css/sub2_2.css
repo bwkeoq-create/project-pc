@@ -1,0 +1,18 @@
+
+/* TR부문의 내용 콘텐츠 */
+
+#content .content_area {width: 100%;  text-align: center; padding-bottom: 150px; }
+#content .content_area ul{display: flex; justify-content: center; text-align: justify;background-size: cover;background:#D7D7D7 ;
+   
+}
+#content .content_area img{width: 1600px;  margin-bottom: 150px;}
+#content .content_area h3{font-size: var(--font-h3-size); color: var(--color-point1); margin-bottom: 50px;}
+#content .content_area .con_slogan{font-weight: 400; color: #333; text-align: center; margin-bottom: 150px; font-size: var(--font-h5-size);}
+#content .content_area .con_slogan span{color:var(--color-main); font-weight: 600;}
+#content .content_area .con_text{width:100%; padding: 100px 90px; font-weight: 600; font-size: 1.3rem; text-align: center; background: #f1f1f1;}
+#content .content_area .myeonsejeom{display: flex; justify-content: center; text-align: center; margin-top: 150px;}
+#content .content_area .myeonsejeom div{border: 10px solid #735A3A; width: 600px; height: 600px; outline: 15px solid #735A3A; outline-offset: 20px;
+margin-top: 86px;}
+#content .content_area .myeonsejeom img{width: 780px; margin: 50px }
+#content .content_area .myeonsejeom dl dt{margin-top: 80px; font-weight: 600; color:var(--color-main);font-size: var(--font-h5-size); padding: 50px 0 60px 0;}
+#content .content_area .myeonsejeom dl dd{text-align: justify; margin: 0 20px; color: var(--color-point1); text-align:justify; line-height: 1.6; }

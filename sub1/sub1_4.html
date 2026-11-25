@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개:오시는길</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/b5dd439c86.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="./css/sub1_common.css">
+    <link rel="stylesheet" href="./css/sub1_4.css">
+
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0ccf8252b9308c7821b32a82fffb0083"></script>
+    <script src="./js/map.js"></script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+     <div id="wrap">
+      <header id="headerArea">
+         
+        </header> 
+        <div class="visual">
+            <img src="./images/common/sub_visual1.png" alt="">
+            <strong class="hidden">회사소개</strong>
+        </div> 
+
+        <div class="sub_nav">
+            <ul>
+                <li><a href="./sub1_1.html">기업개요</a></li>
+                <li><a href="./sub1_2.html">비전&미션</a></li>
+                <li><a href="./sub1_3.html">연혁</a></li>
+                <li><a class="active" href="./sub1_4.html">오시는길</a></li>
+            </ul>
+        </div>
+
+        <main id="content">
+            <article>
+
+                <div class="title_area">
+                    <div class="line_map">
+                        HOME &gt; 회사소개 &gt; <strong>오시는길</strong>
+                    </div>
+                    <h2>오시는길<span>Location & Directions</span></h2>
+                    <p>"일상이 최고의 순간으로 변모하는 여정의 시작점"</p>
+                </div>
+
+                <div class="content_area">
+
+                    <div id="map">
+
+                    </div>
+
+                    <address>
+                        서울특별시 중구 동호로 249(우편번호 : 04605)<br>
+                        Tel. 02-2233-3131<br>
+                        서울시 중구 장충동 장충체육관 옆<br>
+                    </address>
+
+                    <ul>
+                        <li>
+                             <dl>
+                                <dt>
+                                    <span class="material-symbols-outlined">
+                                        directions_car
+                                    </span>
+                                    자가용이용시
+                                </dt>
+                                <dd>분당방면 : 한남대교→장충단길→신라호텔 후문→서울신라호텔/신라면세점</dd>
+                                <dd>강남방면 : 동호대교→장충체육관 앞 사거리에서 비보호 좌회전→서울신라호텔/신라면세점</dd>
+                                <dd>용산방면 : 남산2호터널 통과 후 좌회전→신라호텔 후문→서울신라호텔/신라면세점→장충체육관 앞 하차(※ 노선번호:144,301,7212)</dd>
+                             </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <span class="material-symbols-outlined">
+                                        directions_bus
+                                    </span>
+                                    버스이용시
+                                </dt>
+                                <dd>
+                                    <span>셔틀버스 운행</span>
+                                    서울신라호텔 정문(기와문)에서 호텔 로비와 면세점까지 무료 관내 셔틀 운행
+                                </dd>
+                                <dd>
+                                    운행코스 : 서울신라호텔 로비 → 신라면세점 → 호텔 고객 주차장 → 서울신라호텔 정문
+                                </dd>
+                                <dd>
+                                    운행시간 : 08:00 ~ 22:00(수시 운행)        
+                                </dd>
+                                <dd>
+                                    ※ 교통상황에 따라 셔틀 운행 시간이 변동될 수 있습니다.
+                                </dd>
+                                <dd>
+                                    ※ 고객 안전을 위하여 정원 초과 시 탑승이 제한될 수 있습니다.
+                                </dd>
+                             </dl>
+                        </li>
+                        <li>
+                           <dl>
+                                <dt>
+                                    <span class="material-symbols-outlined">
+                                        directions_bus
+                                    </span>
+                                    지하철이용시
+                                </dt>
+                                <dd>
+                                    지하철3호선 동대입구역 5번출구
+                                </dd>
+                             </dl>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </article>
+        </main>
+
+
+
+            <footer id="footerArea">
+               
+            </footer>              
+</div>
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery-migrate-1.4.1.min.js"></script>
+ <script>
+        $('#headerArea').load('../common/sub_header.html',function(){
+            //function(){} -> main_header.html로드가 완료되면,
+            $.getScript('../js/fullnav.js');
+        });
+        $('#footerArea').load('../common/sub_footer.html',function(){
+            $.getScript('../js/select.js');
+        })
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+#content .content_area{width: 1200px; margin: 0 auto 150px;}
+#content .content_area .tab_menu ul{width:600px ;display: flex; margin: 0 auto 80px; justify-content: center;}
+#content .content_area .tab_menu ul li{width: 33.33%;}
+#content .content_area .tab_menu ul li a{padding: 15px 0; text-align: center; font-size: 1.3rem; font-weight: 600; border-radius: 10px; }
+#content .content_area .tab_menu ul li a.active{background:var(--color-point1); color: #fff;}
+
+#content .content_area .contlist{ margin-bottom: 50px; height: 780px; 
+    background: url(../images/sub2/back_img.png) left top no-repeat; background-size:25% ; display: none;}
+
+#content .content_area .contlist div{display: flex; gap: 100px; align-items: center; height: 150px;}
+#content .content_area .contlist div:nth-child(1){transform: translateY(50px);}
+#content .content_area .contlist div:nth-child(2){transform: translateY(80px);}
+#content .content_area .contlist div:nth-child(3){transform: translateY(100px);}
+#content .content_area .contlist div:nth-child(4){transform: translateY(80px);}
+#content .content_area .contlist div:nth-child(5){transform: translateY(40px);}
+#content .content_area .contlist dl{margin-left: 50px; margin-top: 30px;}
+#content .content_area .contlist div dt{color: #fff; font-size: 1.5rem; font-weight: 700; width: 300px;}
+#content .content_area .contlist div dd{color: #333; font-size: 1.2rem; font-weight: 500;}

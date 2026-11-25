@@ -1,0 +1,43 @@
+
+/* 호텔사업의 내용 콘텐츠 */
+#content .content_area{width: 1200px; margin: 0 auto; }
+#content .content_area h3{font-size: var(--font-h3-size); color: var(--color-point1); margin-bottom: 50px; text-align: center;}
+#content .content_area p{font-size: var(--font-gnb-size); font-weight: 500;  color: #000; text-align: justify; text-align: center;}
+#content .business_tab{ display: flex; justify-content: center; 
+font-size: var(--font-gnb-size); }
+#content .tab_menu {position:relative;  width: 1200px;} 
+#content .tab_menu h4{color: #000;}
+#content .tab_menu a{width: 200px;height: 50px;transition: all .5s ease-out; }
+
+.content_area .tab_menu h4 a::after 
+{
+    content: ''; display: block;
+    width: 0;  position: absolute; height: 3px; background: var(--color-main);
+    bottom: 0px; left: 50%;  transition: all .3s ease-out;
+}
+.content_area .tab_menu h4 a:hover::after{ width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);}
+#content .content_area .tab_menu .tab{display:block; width:200px; height: 30px; position:absolute; text-align: center; background: var(--color-marin); 
+          font-size: 16px;  font-weight: bold;padding: 10px 0;  border-bottom:1px solid #ccc ; border-top: 1px solid #ccc;
+           transform: translateY(-100px); color: #000;}
+#content .content_area .text_con h5{font-size: 2rem; margin: 50px; color: var(--color-main);}
+#content .content_area .img_con {margin-top: 100px;}
+.tab_menu a.tab1{left:200px; top:0;}
+.tab_menu a.tab2{left:400px; top:0;}
+.tab_menu a.tab3{left:600px; top:0;}
+.tab_menu a.tab4{left: 800px; top: 0;}
+
+.tab_menu .contlist { display: none; margin: 0 auto; width: 1200px; padding: 350px;
+    padding:15px;line-height:1.5em; margin-bottom: 250px ;} 
+
+#content .content_area .Partner  {text-align: center;  background: url(../images/sub2/Rectangle\ 18.png) center no-repeat; background-size: cover;
+top: 200px;height: 350px; margin-bottom: 150px; }
+#content .Partner dl dt {margin-top: 100px; 
+    font-size: var(--font-h4-size); 
+}
+#content .Partner dd{font-size: var(--font-gnb-size);  }
+#content .Partner dl{ color: #fff;  padding: 30px;  margin-top: 150px; }

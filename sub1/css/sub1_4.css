@@ -1,0 +1,44 @@
+/* 오시는길 본문영역 */
+#content #map{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    border: 5px solid #ccc;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+#content .content_area{
+   width: 1200px;
+   margin:0  auto 200px;
+}
+#content .content_area address{
+   font-size: 1.3rem;
+   line-height: 1.5;
+   margin-bottom: 30px;
+}
+#content .content_area ul li{
+    padding: 30px;
+    border-top: 2px solid #ccc;
+}
+#content .content_area li dt{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-main);
+    margin-bottom: 20px;
+}
+#content .content_area li dt span{
+    font-size: 3rem;
+    transform: translateY(8px);
+}
+#content .content_area li dd{
+    margin-bottom: 10px;
+    font-size: var(--font-18-size);
+}
+#content .content_area li dd span{
+    color: var(--color-main);
+    font-weight: 600;
+    font-size: 1.25rem;
+    display: block;
+    margin-bottom: 5px;
+}

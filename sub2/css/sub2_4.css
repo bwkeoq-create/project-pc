@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* SBTM사업의 내용 콘텐츠 */
+#content .content_area{width: 1600px; margin: 0 auto; text-align: center;}
+#content .content_area h3{color: var(--color-point1); font-size: var(--font-h3-size); padding: 30px;}
+#content .content_area p{font-size: var(--font-gnb-size); font-weight: 500; line-height: 30px; margin-bottom: 150px; }
+#content .Btm {width: 100%; height: 1000px; margin: 0 auto; background: url(../images/sub4/trip.png) center no-repeat; 
+              background-size: cover; margin-top: 150px;overflow: hidden;}
+#content .Btm dl{ background: rgba(255,255,255,.3); padding: 50px; border-radius: 30px;width: 600px; margin: 250px 0 0 700px; 
+                     backdrop-filter: blur(8px); box-shadow: 0 0 10px 1px rgba(0,0,0,.2);}
+#content .content_area .Btm dt{font-size:2.5rem; text-align: left; margin-bottom: 50px; font-weight: 700;}
+#content .content_area .Btm dd{ font-size:1.3rem; text-align: justify; font-weight: 500;line-height: 1.6;}
+
+#content .content_area .box{display: flex; justify-content: center; align-items: center; width: 1400px; height: 600px;  margin: 0 auto;
+                            margin-top: 100px ; overflow: hidden; }
+
+#content .content_area .box li{width: 350px; height: 320px;  background: #fff; position: relative; margin: 0 auto; top: -130px; }
+#content .content_area .box li dl:hover{ background:var(--color-main);  position: absolute; color: #6163c9; 
+ transform: translateY(-50px); color: #fff; }
+
+#content .content_area .box dl{width: 350px;margin-top: 50px; line-height: 50px; transition: all .5s ease-out;padding-bottom: 50px; }
+#content .content_area .box span{font-size: 70px; margin: 50px;}
+#content .content_area .box li dl dt{font-size: var(--font-h5-size); font-weight: 700; }
+#content .content_area .box dl>dd{font-size: var(--font-gnb-size); font-weight: 500p;} 
+#content .content_area .service{border: 5px solid var(--color-main); list-style: none; margin: 0 0 170px 0 ; width: 1600px; height: 600px; display: flex;
+                                justify-content: center; align-items: center; border-radius: 350px 350px 350px 350px  ;}
+#content .content_area .service li{width: 533.33px; height: 600px;   position: relative; background: #f7f7f7; }
+#content .content_area .service li:nth-child(1){background: url(../images/sub4/reservation.png)center no-repeat; background-size: cover; border-radius: 350px 0 0 350px;}
+#content .content_area .service li:nth-child(2){background: url(../images/sub4/safe.png)center no-repeat;}
+#content .content_area .service li:nth-child(3){background: url(../images/sub4/reservation2.png)center no-repeat; border-radius: 0 350px 350px 0; }
+#content .content_area .service li:hover{ transition: all .5s ease-out;}
+#content .content_area .service li dl{  top: 0; left: 0; width: 533.33px; height: 600px; text-align: center;position: absolute; transform: scale(.7); opacity: 0;transition: all .5s ease-out;}
+#content .content_area .service li dl:hover{ background: rgba(255, 255, 255, .8); opacity: 1; transform: scale(1); backdrop-filter: blur(5px);}
+#content .content_area .service li dt{font-size:3rem; font-weight: 600; margin-top: 150px ;}
+#content .content_area .service li dd{font-size:1.5rem; margin-top: 50px; ;}
+#content .content_area .service_right dl{border-radius:  0 350px 350px 0;}
+#content .content_area .service_left dl{border-radius: 350px 0 0 350px;}

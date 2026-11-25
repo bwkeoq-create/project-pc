@@ -1,0 +1,30 @@
+#content .content_area{width: 1400px; margin: 0 auto 150px; }
+#content .content_area dl{border: 2px solid #ccc; padding: 50px; box-sizing: border-box; margin-bottom: 100px;}
+#content .content_area dt{text-align: center;margin-bottom: 30px; font-size:var(--font-h3-size); font-weight:400;
+                          color: var(--color-main);}
+#content .content_area dd{font-size: 1.2rem; text-align: center; line-height: 1.6; margin-bottom: 20px;}
+#content .content_area section{border: 2px solid #ccc; padding: 50px; box-sizing: border-box; margin-bottom: 100px;}
+#content .content_area section h3{text-align: center;margin-bottom: 30px; font-size:var(--font-h3-size); font-weight:400;}
+#content .content_area .vision{height:500px; position: relative;}
+#content .content_area .vision strong{font-size: 3.5rem; color: var(--color-main); font-weight: 800; display: block;position: absolute; left:50px; top: 150px;}
+#content .content_area .vision strong span{display: block; opacity: 40%;}
+#content .content_area .vision strong span:nth-child(1){margin-left: 300px;}
+#content .content_area .vision strong span:nth-child(2){margin-left: 200px;}
+#content .content_area .vision strong span:nth-child(3){margin-left: 100px;}
+#content .content_area .vision p{font-size: 1.3rem; position: absolute; text-align: right; right: 100px; bottom: 70px;line-height: 1.6;}
+#content .content_area .misson{height: 800px; background: url(../images/sub2/misson.jpg) center no-repeat;background-size: cover; }
+#content .content_area .misson h3{color: #fff;}
+#content .content_area .misson p{text-align: center; color: #fff; margin-bottom: 100px;}
+#content .content_area .misson ul{width:1000px; margin: 0 auto;}
+#content .content_area .misson ul li{background:rgba(255,255,255,.6); backdrop-filter: blur(8px);
+    padding: 40px 30px;  margin-bottom: 50px; border-radius: 25px; font-size: 1.1rem; box-shadow:var(--box-shadow1) ; transition:all .5s; opacity: 70%; }
+#content .content_area .misson ul li:hover{transform: scale(1.1); opacity: 100%; background: #fff;}
+#content .content_area .misson ul li strong{font-size: 1.3rem; color: #5b421d;}
+#content .content_area .symbols{width:1000px; display: flex; justify-content: space-between; margin: 0 auto;padding: 30px 0;}
+#content .content_area .symbols li{width: 150px;text-align: center;}
+#content .content_area .symbols li:hover{transform: rotateX(1,0,1,340deg);}
+#content .content_area .symbols li div{width: 150px; height: 150px; background:var(--color-main) ; border-radius: 50%;margin-bottom: 20px; display:flex; align-items: center; justify-content: center;transition: all .5s;}
+#content .content_area .symbols li:hover div{transform: rotateY(360deg);}
+#content .content_area .symbols li div span{font-size: 5rem;transition: all .5s;}
+#content .content_area .symbols li:hover div span{color: #fff;}
+#content .content_area .symbols li p{line-height: 1.5; font-weight: 500;}
